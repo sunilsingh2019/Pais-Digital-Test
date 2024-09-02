@@ -1,0 +1,16 @@
+/* Center elements and add some padding */
+header, .hero-section, .introduction-section, .contact-section {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Add spacing between form fields */
+.contact-section .form-control, .contact-section .form-select, .contact-section textarea {
+    margin-bottom: 15px;
+}
+.contact-section .form-control,
+.contact-section .form-select,
+.contact-section textarea {
+    width: 50%;
+    margin: 0 auto 15px auto; /* Centering the element */
+}
